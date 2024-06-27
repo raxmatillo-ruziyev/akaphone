@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar/Navbar'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Section from './Components/Section/Section';
+import Services from './Components/Services/Services';
+import Sliderr from './Components/Sliderr/Sliderr';
 
 
 
@@ -15,6 +17,8 @@ function App() {
   <Navbar/>
   <Hero/>
   <Section/>
+  <Services/>
+  <Sliderr/>
       
     
   

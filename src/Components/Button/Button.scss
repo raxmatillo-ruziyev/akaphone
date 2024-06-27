@@ -1,0 +1,16 @@
+.btncha{
+    padding:9px 30px;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    &:hover{
+        padding:9px 30px;
+        border: 1px solid white;
+        background: white;
+        color: black;
+        transition: 0.6s;
+        box-shadow: 2px 2px 20px  4px white;
+       
+}
+}
