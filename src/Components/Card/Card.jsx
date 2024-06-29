@@ -13,7 +13,7 @@ const Card = ({name,price,tell}) => {
                         <p className="card-text">Белый, серый, синий</p>
                         <ul className="card-list">
                             <li className="card-item"><h2 className="card-subtitle">{price} ₽</h2></li> <br /><br />    
-                            <li><button className='card-btn'>Add To Cart <i className='fa fa-shopping-cart'></i></button></li>
+                            <li><button className='card-btn'><span className='btn-title'>Add To Cart <i className='fa fa-shopping-cart'></i></span></button></li>
                         </ul>
                         
       

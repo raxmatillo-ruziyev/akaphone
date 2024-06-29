@@ -45,17 +45,23 @@
     line-height: 10px;
 }
 .card-btn{
-    width: 100%;
+    // width: 100%;
+    width: 303px;
+    position: absolute;
+    left:4px;
+
     font-size: 23px;
-    padding: 15px 0;
+    padding: 13px 0;
     background: #FF4500;
     border: 2px solid #FF4500;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     color: white;
+    align-items: center;
     &:hover{
-        background: transparent;
-        color: #FF4500;
+        // background: transparent;
+        // color: #FF4500;
+        box-shadow: 1px 1px 10px 2px white;
         transition: 0.6s;
         -webkit-transition: 0.6s;
         -moz-transition: 0.6s;
@@ -63,6 +69,7 @@
         -o-transition: 0.6s;
 }
 }
+
 .tell{
     position: absolute;
     background: transparent;

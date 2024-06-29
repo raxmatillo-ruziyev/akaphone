@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Section from './Components/Section/Section';
 import Services from './Components/Services/Services';
 import Sliderr from './Components/Sliderr/Sliderr';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -18,7 +19,8 @@ function App() {
   <Hero/>
   <Section/>
   <Services/>
-  <Sliderr/>
+  <Sliderr/><br />
+  <Footer/>
       
     
   

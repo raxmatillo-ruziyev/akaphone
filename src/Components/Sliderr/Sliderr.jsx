@@ -10,6 +10,12 @@ import tel6 from '../../assets/tel6.png';
 import tel7 from '../../assets/tel7.png';
 import tel8 from '../../assets/tel8.png';
 import tel9 from '../../assets/tel9.png';
+import all from '../../assets/all_product.jpg'
+import card2 from '../../assets/card2.png'
+import card21 from '../../assets/card21.png'
+import card22 from '../../assets/card22.png'
+import book from '../../assets/book.png'
+
 import Card from '../Card/Card';
 import Card2 from "../Card2/Card2";
 
@@ -30,33 +36,25 @@ function Sliderr() {
       <Slider asNavFor={nav2} 
       ref={slider => (sliderRef1 = slider)}
       slidesToShow={4}>
+      
+
+
       <div key={1}>
-                            <Card2   tell={tel1} />
+                            <Card2   tell={all}  name={'  All Products'}/>
                         </div>
                         <div key={2}>
-                            <Card2  tell={tel2} />
+                            <Card2  tell={card2}name={'Phone'} />
                         </div>
                         <div key={3}>
-                            <Card2  tell={tel3} />
+                            <Card2  tell={card21}name={'  Computer '} />
                         </div>
                         <div key={4}>
-                            <Card2  tell={tel4} />
+                            <Card2  tell={card22} name={'   Office'}/>
                         </div>
                         <div key={5}>
-                            <Card2 tell={tel5} />
+                            <Card2 tell={book} name={'  Book '}/>
                         </div>
-                        <div key={6}>
-                            <Card2 tell={tel6} />
-                        </div>
-                        <div key={7}>
-                            <Card2  tell={tel7} />
-                        </div>
-                        <div key={8}>
-                            <Card2  tell={tel8} />
-                        </div>
-                        <div key={9}>
-                            <Card2 tell={tel9} />
-                        </div>
+                       
       </Slider>
 
       <Slider
@@ -107,7 +105,8 @@ function Sliderr() {
    <Card name="Galaxy Tab S6" price="25" tell={tel9} />
                         </div>
                         <div key={2}>
-                            <Card name="Samsung S7" price="16" tell={tel2} />
+                        <Card name="Kreslo INDI CA-1613A" price="8" tell={tel6} />
+                            
                         </div>
                         <div key={3}>
                         <Card name="HyperX Cloud Stinger" price="2" tell={tel8} />
@@ -121,7 +120,7 @@ function Sliderr() {
                             <Card name="Google Pixel - Black" price="10" tell={tel1} />
                         </div>
                         <div key={6}>
-                            <Card name="Kreslo INDI CA-1613A" price="8" tell={tel6} />
+                        <Card name="Samsung S7" price="16" tell={tel2} />
                         </div>
                         <div key={7}>
                          
